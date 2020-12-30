@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+body{
+    font-family: arial;
+    font-size: 16px;
+    background-color: darkgrey;
+}
+.cabecalho{
+    background: grey;
+    border-bottom: solid 5px grey;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho a{
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 10px 15px;
+}
+
+.menu{
+    flex-grow: 10;
+}
+
+.menu:hover{
+    background: yellow;
+    color: aqua;
+}

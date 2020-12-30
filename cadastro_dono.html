@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Login</title>
+        <link rel="stylesheet" href="design_cadastro_dono.css" />
+        <link rel="stylesheet" href="design_button.css" />
+    </head>
+    <body>
+        <div class="logo">
+                    <img src="pets.png" width="80px">
+        </div>
+        <div class="forma">
+                <div class="elementos">
+                    <h1>Cadastro Dono</h1>
+                    <form action="insere_cadastro_dono.php" method="post">
+                    <label>
+                    <strong>Nome:</strong><br>
+                    <input type="text" name="nome" required/><br>
+                    </label><br><br>
+                    <label>
+                    <label>
+                    <strong>Nome de Usuário:</strong><br>
+                    <input type="text" name="nome_usuario" required/><br />
+                    <br/>
+                    </label>
+                    <strong>Data de Nascimento:</strong><br>
+                    <input type="text" name="dt_nascimento" required /><br>
+                    </label><br><br>
+                    <label>
+                    <strong>Celular:</strong><br>
+                    <input type="text" name="num_celular" required/><br>
+                    </label><br><br>
+                    <label>
+                    <strong>Email:</strong><br>
+                    <input type="text" name="email"/><br>
+                    </label><br><br>
+                    <label>
+                    <strong>Senha:</strong><br>
+                    <input type="password" name="senha" required/><br>
+                    </label><br><br>
+                    <input type="submit" name="button" value="Cadastrar" />
+                    </form><br>
+                    <a href="index.html">Voltar</a>
+                </div>
+        </div>
+    </body>
+</html>  

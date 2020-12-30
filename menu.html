@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Login</title>
+        <link rel="stylesheet" href="design_menu.css" />
+    </head>
+    <body>
+        <div class="geral">
+            <div class="cabecalho">
+                <div class="logo">
+                    <img src="pets.png" width="80px">
+                </div>
+                <div class = "menu">
+                    <ul>
+                        <li><a href = "cadastro_pet" >Cadastrar</a></li>
+                        <li><a href = "altera_pet" >Alterar</a></li>
+                        <li><a href = "exlui_pet" >Excluir</a></li>
+                        <li><a href = "consulta_pet" >Consultar</a></li>
+                        <li><a href = "index.html" >Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="opcao">
+                <div class="principal">
+                    <div class="logo">
+                        <img src="pets.png" width="100">
+                    </div>
+                    <div class="elementos">
+                        <h1>Cadastro Dono</h1>
+                        <form action="insere_cadastro_dono.php" method="post">
+                        <label>
+                        <strong>Nome de Usuário:</strong><br>
+                        <input type="text" name="nome_usuario" required/><br />
+                        <br/>
+                        </label>
+                        <label>
+                        <strong>Nome:</strong><br>
+                        <input type="text" name="nome" required/><br>
+                        </label><br><br>
+                        <label>
+                        <strong>Data de Nascimento:</strong><br>
+                        <input type="text" name="dt_nascimento" required /><br>
+                        </label><br><br>
+                        <label>
+                        <strong>Celular:</strong><br>
+                        <input type="text" name="num_celular" required/><br>
+                        </label><br><br>
+                        <label>
+                        <strong>Email:</strong><br>
+                        <input type="text" name="email"/><br>
+                        </label><br><br>
+                        <label>
+                        <strong>Senha:</strong><br>
+                        <input type="password" name="senha" required/><br>
+                        </label><br><br>
+                        <input type="submit" name="button" value="Cadastrar" />
+                        </form>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>  

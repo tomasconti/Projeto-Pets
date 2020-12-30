@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Cadastro Pet</title>
+        <link rel="stylesheet" href="design_menu.css" />
+        <link rel="stylesheet" href="design_button.css" />
+        <link rel="stylesheet" href="design_cadastro_pet.css" />
+    </head>
+    <body>
+        <div class="geral">
+            <div class="cabecalho">
+                <div class="logo">
+                    <img src="pets.png" width="80px">
+                </div>
+                <div class = "menu">
+                    <ul>
+                        <li><a href = "cadastro_pet.html" >Cadastrar</a></li>
+                        <li><a href = "altera_pet.php" >Alterar</a></li>
+                        <li><a href = "exclusao_pet.php" >Excluir</a></li>
+                        <li><a href = "consulta_pet.php" >Consultar</a></li>
+                        <li><a href = "index.html" >Sair</a></li> 
+                    </ul>
+                </div>
+            </div>
+            <div class="opcao">
+                <h1>Cadastro Pet</h1>
+                    <div class="elementos">
+                        <form action="insere_cadastro_pet.php" method="post">
+                        <label><br>
+                        <strong>Nome:</strong><br>
+                        <input type="text" name="nome" required/>
+                        </label><br><br>
+                        <label>
+                        <strong>Raça:</strong><br>
+                        <input type="text" name="raca" required/>
+                        </label><br><br>
+                        <label>
+                        <label>
+                        <strong>Gênero:</strong><br>
+                        <input type="radio" name="genero" value="F" checked/>Fêmea<br>
+                        <input type="radio" name="genero" value="M" />Macho<br>
+                        </label><br>
+                        <strong>Cor</strong><br>
+                        <input type="text" name="cor" required />
+                        </label><br><br>
+                        <label>
+                        <strong>Porte:</strong><br>
+                        <input type="radio" name="porte" value="P" checked/>Pequeno<br>
+                        <input type="radio" name="porte" value="M" />Médio<br>
+                        <input type="radio" name="porte" value="G" />Grande<br>
+                        </label><br>
+                        <label>
+                        <strong>Idade:</strong><br>
+                        <input type="text" name="idade"/>
+                        </label><br><br>
+                        <label>
+                        <strong>Pedigree:</strong><br>
+                        <input type="radio" name="pedigree" value="nao" checked/>Não<br>
+                        <input type="radio" name="pedigree" value="sim" />Sim<br>
+                        </label><br><br>
+                        <input type="submit" name="button" value="Cadastrar" />
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>

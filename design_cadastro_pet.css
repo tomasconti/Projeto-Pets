@@ -1,0 +1,14 @@
+body{
+    color: black;
+}
+.opcao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.elementos{
+    background: #D3D3D3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}

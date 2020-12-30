@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+body{
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    background-color: #D3D3D3;
+}
+
+.forma{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    width: 6em;
+    background: black;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+}
+.elementos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    color: #3498db;
+}
